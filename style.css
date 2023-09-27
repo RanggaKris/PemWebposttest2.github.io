@@ -1,0 +1,127 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Basic html */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+body {
+    font-size: 28px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #520b4c;
+    position: sticky;
+    top: 0;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: hsl(0, 0%, 0%);
+  }
+
+  /* Gaya konten web */
+  body {
+    font-size: 28px;
+    padding-top: 50px; /* Tambahkan padding di atas konten */
+  }
+  
+main {
+    padding: 20px;
+}
+
+main h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 16px;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main ul li {
+    margin-bottom: 20px;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+.gambar {
+    width: 800px;
+    height: 400px;
+    transition: opacity 0.2s ease; /* Efek transisi saat hover */
+  }
+
+  /* Efek gambar saat di-hover */
+  .gambar:hover {
+    opacity: 0.6; /* Mengurangi ketidaktransparanan saat hover */
+  }
+
+  .fotodri {
+    width: 500px;
+    height: 500px;
+    transition: opacity 0.2s ease; /* Efek transisi saat hover */
+    
+  }
+
+  /* Efek gambar saat di-hover */
+  .fotodri:hover {
+    opacity: 0.6; /* Mengurangi ketidaktransparanan saat hover */
+  }
+
+.clr{
+    color: aliceblue;
+}
+
+
+
+
+
